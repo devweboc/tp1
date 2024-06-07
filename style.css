@@ -15,14 +15,14 @@ p {
 
 
 body {
-    background-color: black;
+    background-color: rgb(40, 38, 38);
     color:aliceblue;
 }
 img {
    width: 300px ;
 }
 h1 {
-    text-transform: uppercase;
+    text-transform: capitalize;
     font-size: 2.5rem;
 }
 nav { 
@@ -30,10 +30,42 @@ nav {
    
    
 }
+h2 {
+    width: 50%;
+}
 ul{ 
+    width: 50%;
     list-style-type: none;
-     text-align: justify;
-     display:flex;
-     align-items: center;
+     
+    display:flex;
+     justify-content: space-between;
     
+}
+header {
+    display: flex;
+
+}
+.header-left {
+    width: 50%;
+
+}
+.header-left h3 {
+    color:blue;
+}
+.header-right {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+ 
+    
+
+}
+img {
+    min-height: 100%;
+   
+}
+button {
+    background-color:blue;
+    color: white;
+    border-radius: 10px;
 }
