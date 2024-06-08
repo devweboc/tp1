@@ -69,3 +69,25 @@ button {
     color: white;
     border-radius: 10px;
 }
+.infos {
+    display: flex;
+
+    
+}
+.infos-left {
+    min-width: 30%;
+    margin-right: 230px;
+}
+.btn-container{
+    display: flex;
+    flex-direction: column;
+   margin: 10px;
+
+}
+button {
+    margin: 5px;
+}
+.img-container {
+    display: flex;
+    max-height: 180px;;
+}
