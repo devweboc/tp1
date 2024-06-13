@@ -15,11 +15,13 @@ p {
 
 
 body {
+    min-height: 100vh;
     background-color: rgb(40, 38, 38);
     color:aliceblue;
-}
-img {
-   width: 300px ;
+    }
+
+#modem {
+   width: 70% ;
 }
 h1 {
     text-transform: capitalize;
@@ -43,7 +45,8 @@ ul{
 }
 header {
     display: flex;
-
+    justify-content: space-around;
+    margin: 30px auto;
 }
 .header-left {
     width: 50%;
@@ -51,6 +54,7 @@ header {
 }
 .header-left h3 {
     color:blue;
+    
 }
 .header-right {
     width: 50%;
@@ -60,34 +64,59 @@ header {
     
 
 }
-img {
-    min-height: 100%;
-   
-}
+
 button {
     background-color:blue;
     color: white;
     border-radius: 10px;
 }
-.infos {
-    display: flex;
 
-    
-}
 .infos-left {
-    min-width: 30%;
-    margin-right: 230px;
+    min-width: 50%;
+    
 }
 .btn-container{
     display: flex;
     flex-direction: column;
+    
+    
    margin: 10px;
 
 }
 button {
     margin: 5px;
+    width: 135px;
 }
-.img-container {
+.img-container img {
     display: flex;
-    max-height: 180px;;
+    
+    height: 5vh;
+    
+}
+.img-container{
+    display: flex;
+    padding-top: 25px;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.infos {
+    display: flex;
+    background-color: rgb(14, 13, 13);
+    color : whitesmoke;
+    border-radius: 10px;
+ 
+   
+}
+.infos-right {
+ 
+ 
+    width: 100vh;
+}
+
+.investors {
+    display: flex;
+    padding: 20px;
+    
+
 }
